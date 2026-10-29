@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Solicitação de Orçamento</h1>
+        <hr>
+        <br>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o nome" required>
+            <br>
+            <br>
+
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa" placeholder="Digite o nome da empresa" required>
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <br>
+            <br>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+            <br>
+            <br>
+
+            <label for="descricao">Descrição do projeto</label>
+            <br>
+            <textarea name="descricao" id="descricao" rows="8"cols="50" ></textarea>
+            <br>
+            <br>
+
+            <label for="data_entrega">Prazo de Entrega Desejado</label>
+            <input type="date" name="data_entrega" id="data_entrega" required>
+            <br>
+            <br>
+
+            <label for="orcamento">Orçamento disponível</label>
+            <input type="number" id="orcamento" name="orcamento" placeholder="Digite o orçamento" required>
+            <br>
+            <br>
+
+            <label for="local">Local de Entrega</label>
+            <input type="text" id="local" name="local" placeholder="Digite o local" required>
+            <br>
+            <br>
+
+            <label for="referencia">Referência do Projeto Anterior</label>
+            <br>
+            <textarea name="referencia" id="referencia" rows="8"cols="50" ></textarea>
+            <br>
+            <br>
+            
+            <label for="preferencia">Preferência de Contato</label>
+             <select name="preferencia" id="preferencia" required>
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="email">Email</option>
+                <option value="telefone">Telefone</option>
+                <option value="whatsapp">Whatsapp</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="nome_responsavel">Nome do responsável</label>
+            <input type="text" id="nome_responsavel" name="nome_responsavel" placeholder="Digite o nome" required>
+            <br>
+            <br>
+
+            <label for="cargo_responsavel">Cargo do acompanhante</label>
+            <input type="text" id="cargo_responsavel" name="cargo_responsavel" placeholder="Digite o cargo" required>
+            <br>
+            <br>
+
+            <label for="telefone_responsavel">Telefone do responsável</label>
+            <input type="tel" id="telefone_responsavel" name="telefone_responsavel" placeholder="Digite o telefone" required>
+            <br>
+            <br>
+
+            <label for="data_projeto">Data de Início do Projeto</label>
+            <input type="date" id="data_projeto" name="data_projeto" required>
+            <br>
+            <br>
+
+            <label for="itens">Número de Itens/Produtos</label>
+            <input type="number" id="itens" name="itens" placeholder="Digite o número de itens" required>
+            <br>
+            <br>
+
+            <label for="urgencia">Urgência</label>
+            <input type="text" id="urgencia" name="urgencia" placeholder="Digite a urgência" required>
+            <br>
+            <br>
+
+            <label for="setor">Setor da empresa</label>
+            <input type="text" id="setor" name="setor" placeholder="Digite o setor da empresa" required>
+            <br>
+            <br>
+
+            <labe>Método de Pagamento</label>
+            <select name="pagamento" id="pagamento">
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="cartao_credito">Cartão de crédito</option>
+                <option value="cartao_debito">Cartão de débito</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="pix">Pix</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Aceitar Termos e Condições</label>
+            <br>
+            <br>
+
+            <input type="checkbox" id="receber_atualizacao" name="receber_atualizacao" required>
+            <label for="receber_atualizacao">Receber Novidades por E-mail</label>
+            <br>
+            <br>
+            
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
+</body>
+</html>

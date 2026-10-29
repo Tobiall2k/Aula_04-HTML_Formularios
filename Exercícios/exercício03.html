@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Reserva em Restaurante</h1>
+        <hr>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <br>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+            <br>
+            <br>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome..." required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <br>
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <br>
+            <br>
+            <label for="numero_pessoas">Número de Pessoas</label>
+            <input type="number" id="numero_pessoas" name="numero_pessoas" required>
+            <br>
+            <br>
+            <label for="data">Data de Reserva</label>
+            <input type="date" id="data" name="data" required>
+            <br>
+            <br>
+            <label for="hora">Horário da Reserva</label>
+            <input type="time" id="hora" name="hora" required>
+            <br>
+            <br>
+            <label>Preferências Alimentares</label>
+            <br>
+            <input type="checkbox" name="macarrao" id="macarrao" required>
+            <label for="macarrao">Macarrão</label>
+            <br>
+            <input type="checkbox" id="feijoada" name="feijoada" required>
+            <label for="feijoada">Feijoada</label>
+            <br>
+            <input type="checkbox" id="churrasco" name="churrasco" required>
+            <label for="churrasco">Churrasco</label>
+            <br>
+            <br>
+            <label>Restrições Alimentares</label>
+            <br>
+            <input type="checkbox" id="milho" name="milho" required>
+            <label for="milho">Milho</label>
+            <br>
+            <input type="checkbox" id="pimenta" name="pimenta" required>
+            <label for="pimenta">Pimenta</label>
+            <br>
+            <input type="checkbox" id="camarao" name="camarao" required>
+            <label for="camarao">Camarão</label>
+            <br>
+            <br>
+            <label for="comentario_adicional">Comentarios Adicionais</label>
+            <br>
+            <textarea name="comentario_adicional" id="comentario_adicional" rows="8" cols="50" placeholder="Digite um comentário..." required></textarea>
+            <br>
+            <br>
+            <label>Tipo de Evento</label>
+            <select name="tipo_evento" id="tipo_evento">
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="aniversario">Aniversário</option>
+                <option value="casamento">Casamento</option>
+                <option value="comemoracao">Outras comemorações</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Necessidades Especiais</label>
+            <br>
+            <input type="checkbox" id="cao_guia" name="cao_guia" required>
+            <label for="cao_guia">Cães-guia</label>
+            <br>
+            <input type="checkbox" id="cardapio" name="cardapio" required>
+            <label for="cardapio">Cardápios acessíveis</label>
+            <br>
+            <br>
+            <label >Preferência de Assento</label>
+            <select name="preferencia" id="preferencia" required>
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="perto">Perto do Palco</option>
+                <option value="longe">Longe do palco</option>
+            </select>
+            <br>
+            <br>
+            <label for="codigo">Código Promocional</label>
+            <input type="text" id="codigo" name="codigo" required>
+            <br>
+            <br>
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Aceitar Termos e Condições</label>
+            <br>
+            <input type="checkbox" id="notificacao" name="notificacao" required>
+            <label for="notificacao">Receber Notificações</label>
+            <br>
+            <br>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade" required>
+            <br>
+            <br>
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep" placeholder="Digite o CEP" required>
+            <br>
+            <br>
+             <label>Origem da compra</label>
+            <select name="origem" id="origem" required>
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="china">China</option>
+            </select>
+            <br>
+            <br>
+            <label for="referecia">Referências</label>
+            <input type="text" id="referecia" name="referecia" required>
+            <br>
+            <br>
+            <button type="submit">ENVIAR</button>
+
+        </form>
+    </main>
+</body>
+</html>

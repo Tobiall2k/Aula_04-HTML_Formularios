@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de registro de usuário</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Cadastro de Usuários</h1>
+        <hr>
+        <br>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required>
+            <br>
+            <br>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+            <br>
+            <br>
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" name="data" id="data" required>
+            <br>
+
+            <p><strong>Gênero</strong></p>
+            <input type="radio" name="genero" value="masculino" id="masculino" required>
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="genero" value="feminino" id="feminino" required>
+            <label for="feminino">Feminino</label>
+            <br>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail..." required>
+            <br>
+            <br>
+
+            <label for="">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone..." required>
+            <br>
+            <br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+            <br>
+            <br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade..." required>
+            <br>
+            <br>
+
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado" required>
+                <option value="" selected disabled>Selecione</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Belo Horizonte">Belo Horizonte</option>
+                <option value="Rio de Janeiro">Rio de Janeira</option>
+                <option value="Maranhão">Maranhão</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" placeholder="00000-000" required >
+            <br>
+            <br>
+
+            <label for="nome_user">Nome de Usuário:</label>
+            <input type="text" id="nome_user" placeholder="Digite um nome de usuário..." required>
+            <br>
+            <br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha..." required>
+            <br>
+            <br>
+
+            <label for="conf_senha">Confirmação de senha:</label>
+            <input type="password" id="conf_senha" placeholder="Digite a senha novamente...">
+            <br>
+            <br>
+
+            <label for="file">Foto de Perfil: </label>
+            <input type="file" id="file">
+            <br>
+            <br>
+
+            <label for="">Hobbies: </label>
+            <br>
+            <input type="checkbox" id="academia">
+            <label for="">Academia</label>
+            <br>
+            <input type="checkbox" id="esportes">
+            <label for="">Esportes</label>
+            <br>
+            <input type="checkbox" id="videogame">
+            <label for="">Videogame</label>
+            <br>
+            <br>
+
+            <label for="n_educ">Nível de educação: </label>
+            <select id="n_educ" required>
+                <option value="#" selected disabled>Selecione</option>
+                <option value="fund_1">Ensino Fundamental I</option>
+                <option value="fund_2">Ensino Fundamental II</option>
+                <option value="ensino_med">Ensino Médio</option>
+                <option value="ensino_sup">Ensino Superior</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="profissao">Profissão: </label>
+            <input type="text" id="profissao" placeholder="Digite sua profissão...">
+            <br>
+            <br>
+
+            <label for="bio">Biografia: </label>
+            <textarea id="bio" rows="8" cols="50" placeholder="Digite sua biografia..."></textarea>
+            <br>
+            <br>
+
+            <label for="">Termos e condições</label>
+            <br>
+            <br>
+            <input type="checkbox" id="email">
+            <label for="email">Aceito receber notificações em meu aparelho sobre novidades</label>
+            <br>
+            <input type="checkbox" id="privacidade">
+            <label for="">Aceitos os termos de privacidade e serviço</label>
+            
+
+
+
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Avaliação de Produto</h1>
+        <hr>
+    </header>
+    <main>
+        <form action="">
+            <br>
+            <br>
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome..." required>
+            <br>
+            <br>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="Digite seu email..." required>
+            <br>
+            <br>
+
+            <label for="">Avaliação: </label>
+            <input type="number" id="avaliacao" placeholder="Digite sua avaliação..." required>
+            <br>
+            <br>
+
+            <label for="comentario">Comentário</label>
+            <br>
+            <textarea id="comentario" placeholder="Digite um comentário para nós..." rows="8" cols="50" required></textarea>
+            <br>
+            <br>
+
+            <label for="">Recomendria?</label>
+            <input type="radio" value="sim" name="recomend">
+            <label for="">Sim</label>
+            <input type="radio" value="nao" name="recomend">
+            <label for="">Não</label>
+            <br>
+            <br>
+
+            <label for="razao">Razão da avaliação</label>
+            <select id="razao" required>
+                <option value="#" selected disabled>Selecione</option>
+                <option value="elogio">Elogio</option>
+                <option value="critica">Crítica</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="sugs">Sugestão de melhoria: </label>
+            <br>
+            <textarea id="sugs" rows="8" cols="50" placeholder="Nos ajude a melhorar..." required></textarea>
+            <br>
+            <br>
+
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade" required>
+            <br>
+            <br>
+
+            <label for="">Gênero:</label>
+            <br>
+            <br>
+            <input type="radio" name="gen">
+            <label for="">Feminino</label>
+            <input type="radio" name="gen">
+            <label for="">Masculino</label>
+            <br>
+            <br>
+
+            <label for="satis">Satisfação com o produto: </label>
+            <br>
+            <input type="range" id="satis" required>
+            <br>
+            <br>
+
+            <label for="facilidade">Facilidade de uso: </label>
+            <input type="number" id="facilidade" required>
+            <br>
+            <br>
+
+            <label for="qual">Qualidade de produto: </label>
+            <input type="number" id="qual"required>
+            <br>
+            <br>
+
+            <label for="preco">Preço: </label>
+            <input type="number" id="preco" step="0.01" required>
+            <br>
+            <br>
+
+            <label for="texto">Versão do Produto: </label>
+            <input type="text" id="texto" required>
+            <br>
+            <br>
+
+            <label for="loc">Localização: </label>
+            <input type="text" id="loc" required>
+            <br>
+            <br>
+
+            <label for="data">Data de compra: </label>
+            <input type="date" id="data">
+            <br>
+            <br>
+
+            <label for="origin">Origem da compra</label>
+            <select id="origin" required>
+                <option value="#" selected disabled>Selecione</option>
+                <option value="br">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="ch">China</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="">Nivel de satisfação com o suporte: </label>
+            <input type="range" required>
+            <br>
+            <br>
+
+            <button type="submit">Enviar Formulário</button>
+
+        </form>
+    </main>
+</body>
+</html>
